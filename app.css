@@ -41,47 +41,42 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
-.reportnavbar{
-    width: 100%;
-    background-color: white;
-    height: 50px;
+.report{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: white;
 }
-.insidereportnavbar{
-    color: black;
+.reportinfo{
     text-decoration: none;
-    transition: 0.2s;
+    color: black;
 }
-.insidereportnavbar:hover{
+.mainnav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.logoblk{
+    display: flex;
+    flex-grow: 0.15;
+}
+.modelsblk{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0.3;
+}
+.purchaseblk{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-grow: 0.1;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
     text-decoration: underline;
 }
-.mainnavbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    height: 50px;
-}
-.carimg{
-    width: 60px;
-    height: 40;
-}
-.menuinthenavbar{
-    color: black;
-    text-decoration: none;
-    margin-left: 1px;
-    margin-right: 1px;
-    padding: 2px;
-}
-.menuinthenavbar:hover{
-    border: 1px solid #e5e5e5;
-    background-color: #e5e5e5;
-    border-radius: 8px;
-}
-
-
-
