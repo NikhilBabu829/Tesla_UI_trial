@@ -47,6 +47,8 @@ table {
     align-items: center;
     height: 40px;
     background-color: white;
+    position: sticky;
+    top: 0px;
 }
 .reportinfo{
     text-decoration: none;
@@ -56,6 +58,8 @@ table {
     height: 60px;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 40px;
 }
 .logoblk{
     display: flex;
